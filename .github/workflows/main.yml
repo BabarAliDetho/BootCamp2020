@@ -38,4 +38,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build http://hkbd.surge.sh/ --token ${{surge.WOW}}
+      run: surge ./build http://hkbd.surge.sh/ --token ${{surge.SURGE_Token}}
